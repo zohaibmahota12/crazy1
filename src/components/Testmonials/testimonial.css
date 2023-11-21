@@ -1,55 +1,83 @@
 .testimonial-title h1{
-
   color: black;
-font-size: 40px;
-font-family: Manrope;
-font-weight: 700;
-line-height: 40px;
-word-wrap: break-word
-}
-.testimonial-title p{
-  color: black;
-font-size: 18px;
-font-family: Manrope;
-font-weight: 400;
-line-height: 28px;
-word-wrap: break-word
-} 
-.card-body p{
-  color: black;
-font-size: 19px;
-font-family: Manrope;
-font-weight: 400;
-line-height: 24px;
-word-wrap: break-word
-}
-.testimonial-card{
-  border-radius: 16px;
-  border: 3.60px #F5F6FA solid;
-}
-.carousel-control-prev {
-  left: -10%;
+  font-size: 40px;
+  font-family: Manrope;
+  font-weight: 700;
+  line-height: 40px;
+  word-wrap: break-word
+  }
   
-}
-
-.carousel-control-next {
-  left: 93.5%;
-}
-.carousel-control-prev i {
-  color: black;
-  font-size: 30px;
-  padding: 12px;
-  background: #F5F6FA;
-  border-radius: 12px;
-}
-.carousel-control-next i {
-  color: black;
-  font-size: 30px;
-  padding: 12px;
-  background: #F5F6FA;
-  border-radius: 12px;
-
-}
-.card-footer-image img {
-  width: 70%;
-}
+  .testimonial-title p{
+    color: black;
+  font-size: 18px;
+  font-family: Manrope;
+  font-weight: 400;
+  line-height: 28px;
+  word-wrap: break-word
+  }
+  
+  .card-body p{
+    color: black;
+  font-size: 19px;
+  font-family: Manrope;
+  font-weight: 400;
+  line-height: 24px;
+  word-wrap: break-word
+  }
+  
+  .testimonial-card{
+    border-radius: 16px;
+    border: 3.60px #F5F6FA solid;
+  }
+  
+  .carousel-control-prev {
+    left: -2%; 
+  }
+  
+  .carousel-control-next {
+    right: -2%;
+  }
+  
+  .carousel-control-prev i {
+    color: black;
+    font-size: 30px;
+    padding: 12px;
+    background: #F5F6FA;
+    border-radius: 12px;
+  }
+  
+  .carousel-control-next i {
+    color: black;
+    font-size: 30px;
+    padding: 12px;
+    background: #F5F6FA;
+    border-radius: 12px;
+  }
+  
+  .card-footer-image img {
+    width: 70%;
+  }
+  
+  .carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .carousel-control-next, .carousel-control-prev {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4%;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    background: 0 0;
+    border: 0;
+    opacity: .5;
+    transition: opacity .15s ease;
+  }

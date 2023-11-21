@@ -42,8 +42,11 @@ html, body {
   word-wrap: break-word;
   text-decoration: none;
 }
+.navbar__link a:hover{
+color: #9ac90a !important;;
+}
 .navbar__button:hover {
-  background: #9ac90a !important;   ;
+  background: #9ac90a !important;   
 }
 
 .nav-btn button:hover{
@@ -148,7 +151,7 @@ html, body {
   position: relative;
   height: 100%;
   width: 100%;
-  background: #121212;
+  background: url('/public/hero-desktop.png') 0% 25%;
 }
 
 .content__list {
@@ -243,7 +246,7 @@ html, body {
   top: 265px;
   right: 134px;
   padding: 22px 23px;
-  opacity: 0.6;
+  opacity: 0.1;
   background: #15181F;
   border-radius: 100px;
   overflow: hidden;
@@ -255,7 +258,7 @@ html, body {
   top: 509px;
   left: 131px;
   padding: 16px 28px;
-  opacity: 0.4;
+  opacity: 0.1;
   background: #1B1E26;
   border-radius: 24px;
   overflow: hidden;
@@ -518,13 +521,13 @@ html, body {
   gap: 24px;
 }
 
-.card {
+.section-card .card {
   width: 608px;
   display: flex;
   flex-direction: column;
 }
 
-.card-image {
+.section-card .card .card-image {
   border-radius: 8px;
   overflow: hidden;
   display: flex;
@@ -532,11 +535,11 @@ html, body {
   align-items: center;
 }
 
-.card-image > img {
+.section-card .card .card-image > img {
   width: 608px;
 }
 
-.card-content {
+.section-card .card .card-content {
   padding: 24px 16px;
   border-radius: 16px;
   display: flex;

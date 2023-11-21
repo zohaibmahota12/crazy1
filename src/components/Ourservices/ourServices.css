@@ -1,0 +1,76 @@
+.my-our-services{
+                  background: #F5F6FA;
+                  padding-top: 4rem;
+}
+.our-services h1{
+                  font-size: 40px;
+                  font-family: 'Manrope';
+                  font-weight: 700;
+                  line-height: 40px;
+                  word-wrap: break-word;
+}
+.my-our-services .services-cards .card:hover{
+    border-color:  #C0FF00;
+}
+
+.services-cards .card{
+    display: flex;
+    height: auto;
+}
+.servies-main-title h1{
+                  color: black;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Manrope';
+    font-weight: 700;
+    line-height: 40px;
+    word-wrap: break-word;
+}
+
+
+.card-image-logo  {
+                  width: 60px;
+                  height: 60px;
+                  padding: 10px;
+                  background: #15181F;
+                  border-radius: 8px;
+}
+.services-card-title h6{
+                  color: black;
+                  font-size: 24;
+                  font-family: 'Manrope';
+                  font-weight: 700;
+                  line-height: 24px;
+                  word-wrap: break-word;
+}
+.services-cards .card{
+    border: 1.6px solid #d6deff;
+    border-radius: 16px;   
+}
+.services-card-title .card-description {
+                  color: #767C8C;
+    font-size: 16px;
+    font-family: 'Manrope';
+    font-weight: 400;
+    line-height: 24px;
+    word-wrap: break-word;
+}
+.services-card-list .services-list {
+                  /* font-family: 'Manrope';    */
+                  font-size: 16px;
+}
+.services-card-list img{
+                    
+/* width: 20px; */
+height: auto;
+}
+.services-nav-btn button  {
+     padding: 24px;
+    background: #C0FF00;
+    border-radius: 16px;
+    border: 1px solid #C0FF00;
+    transition: background 0.25s ease-in-out;
+}
+.services-nav-btn button:hover  {
+    background: #9ac90a;
+}
