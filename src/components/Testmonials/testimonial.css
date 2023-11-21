@@ -1,0 +1,55 @@
+.testimonial-title h1{
+
+  color: black;
+font-size: 40px;
+font-family: Manrope;
+font-weight: 700;
+line-height: 40px;
+word-wrap: break-word
+}
+.testimonial-title p{
+  color: black;
+font-size: 18px;
+font-family: Manrope;
+font-weight: 400;
+line-height: 28px;
+word-wrap: break-word
+} 
+.card-body p{
+  color: black;
+font-size: 19px;
+font-family: Manrope;
+font-weight: 400;
+line-height: 24px;
+word-wrap: break-word
+}
+.testimonial-card{
+  border-radius: 16px;
+  border: 3.60px #F5F6FA solid;
+}
+.carousel-control-prev {
+  left: -10%;
+  
+}
+
+.carousel-control-next {
+  left: 93.5%;
+}
+.carousel-control-prev i {
+  color: black;
+  font-size: 30px;
+  padding: 12px;
+  background: #F5F6FA;
+  border-radius: 12px;
+}
+.carousel-control-next i {
+  color: black;
+  font-size: 30px;
+  padding: 12px;
+  background: #F5F6FA;
+  border-radius: 12px;
+
+}
+.card-footer-image img {
+  width: 70%;
+}
